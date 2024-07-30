@@ -8,14 +8,29 @@
 html,
 body {
   font-family: "Open Sans", sans-serif;
-
+  color: #333;
 }
 
-h1,
-h2,
-h3 {
-  margin-bottom: 20px;
+.btn-primary {
+  background: white;
+  color: #222;
 }
+
+.btn-dark {
+  background: #222;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  border: 0px;
+  cursor: pointer;
+}
+
 
 .active {
   background: #444;
@@ -58,4 +73,139 @@ header nav ul li a {
 
 header nav ul li a:hover {
   background: #444;
+}
+
+/* main */
+/* section1 */
+
+.vp {
+  height: 700px;
+  background: url(https://coffee-pingucoder.netlify.app/images/cafe1.jpg) center center/cover;
+  text-align: center;
+  /* background-image: url(https://coffee-pingucoder.netlify.app/images/cafe1.jpg);
+  background-position: center center;
+  background-size: cover; */
+}
+
+.vp-content h1 {
+  font-size: 50px;
+}
+
+.vp-content {
+  padding-top: 150px;
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+.vp-content .separator {
+  margin: auto;
+  background-color: black;
+  width: 110px;
+  height: 10px;
+  align-items: center;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* section2 |features*/
+
+/* .features h1,  
+p {
+  color: black;
+} */
+
+.features {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+  overflow: auto;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.feature {
+  float: left;
+  width: 50%;
+}
+
+
+/* section 3  */
+
+.person {
+  width: 100%;
+  height: 500px;
+  background: url(https://coffee-pingucoder.netlify.app/images/cafe3.jpg) center center / cover;
+  text-align: center;
+}
+
+/* section 4 reservation*/
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+/* .reservation h1,
+p {
+  color: black;
+} */
+
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.reservation p {
+  letter-spacing: 0.5px;
+  width: 1000px;
+  display: block;
+  margin: auto;
+  align-items: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+/* localisation */
+
+.local-map {
+  width: 700px;
+  height: 280px;
+  margin: auto;
+  margin-top: 80px;
+  background: url(https://coffee-pingucoder.netlify.app/images/cafe2.png) center center / cover
+}
+
+.icon-local {
+  width: 54%;
+  height: 105px;
+  float: right;
+  text-align: center;
+  overflow: auto;
+  margin-top: 25px;
+}
+
+.trouver-nous {
+  width: 45%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
 }
