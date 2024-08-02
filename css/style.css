@@ -209,3 +209,55 @@ footer {
   text-align: center;
   margin-top: 25px;
 }
+
+/*question*/
+
+.question {
+  position: relative;
+  font-size: 2em;
+  /* Taille du texte, ajustez selon vos besoins */
+  text-align: center;
+  /* Centre le texte, si nécessaire */
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.question::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  /* Place la ligne en dessous du texte */
+  left: 0;
+  width: 100%;
+  height: 3px;
+  /* Hauteur de la ligne */
+  background-color: red;
+  /* Couleur de la ligne, changez selon vos besoins */
+  margin-top: 3px;
+  /* Espace de 3px entre la ligne et le texte */
+  width: 515px;
+  margin-left: 245px;
+
+}
+
+label {
+  margin-top: 100px;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 95%;
+  border: 1px solid #ddd;
+
+}
+
+textarea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 95%;
+  border: 1px solid #ddd;
+
+}
